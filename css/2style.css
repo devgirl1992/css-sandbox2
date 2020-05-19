@@ -1,0 +1,58 @@
+li {
+  padding: 0.25rem;
+  margin: 0.25rem;
+  list-style: none;
+}
+
+/* first child */
+li:first-child {
+  background-color: red;
+}
+
+/* last child */
+li:last-child {
+  background-color: greenyellow;
+}
+
+/* position free */
+li:nth-child(3) {
+  background-color: rgb(119, 0, 255) !important;
+  color: aliceblue;
+  border: 1px dashed rgb(243, 238, 238);
+}
+
+/* every 3 */
+/* 0 mean start from 0,0 is ofset here and can be any other number */
+li:nth-child(3n+0) {
+  background-color: lightpink;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+li:nth-child(5n+11) {
+  background-color: deeppink;
+  color: yellow;
+  border: 2px dashed white;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+/* every odd */
+li:nth-child(odd) {
+  background-color: lightslategray;
+}
+
+/* every even */
+li:nth-child(even) {
+  padding: 15px;
+  border: 3px solid red;
+  background-color: rgb(15, 14, 14);
+  color: antiquewhite;
+  text-align: right;
+}

@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 150px;
+}
+
+.box-1 {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: coral;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+
+  /* ofset-x | ofset-y | color */
+  box-shadow: 10px 10px teal;
+}
+
+.box-2 {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: coral;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+
+  /* ofset-x | ofset-y | blur-radius |color */
+  box-shadow: 10px 10px 20px teal;
+}
+
+.box-3 {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: coral;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+
+  /* Nefative values => top & left side */
+  box-shadow: -5px -5px 10px rgb(0, 13, 128);
+}
+
+.box-4 {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: coral;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+
+  /* ofset-x | ofset-y | blur-radius | spread-radius |color  */
+  box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.box-5 {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: coral;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+
+  /* box shadow inside */
+  box-shadow: inset 10px 10px 5px red;
+}
+
+.box-6 {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: coral;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+
+  /* multiole shadows */
+  box-shadow: 10px 10px 5px rgb(255, 1, 221), -10px -10px 5px rgb(195, 66, 195);
+}
+
+.box-7 {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: coral;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+}
+

@@ -1,0 +1,35 @@
+body {
+  background: rgb(61, 60, 60);
+}
+
+
+
+/* shorter way */
+
+.box-1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: darksalmon; 
+  animation: anim1 5s 2 forwards ;
+
+
+
+}
+
+
+@keyframes anim1 {
+  from {
+    top: 0;
+    left: 0;
+  }
+
+  to {
+   top: 600px;
+   left: 600px;
+  width: 500px;
+  height: 500px;
+  opacity: 0.5;
+  background-color: aqua;
+  }
+} 
